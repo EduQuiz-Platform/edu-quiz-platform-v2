@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { supabase } from '@/lib/supabase';
-import { useAuth } from '../../contexts/AuthContext';
+import { useAuth } from '@/contexts/AuthContext';
 import { ArrowLeft, ArrowRight, CheckCircle, BookOpen, Award, RotateCcw, Clock, MessageSquare } from 'lucide-react';
-import LessonQuizGenerator from '../../components/LessonQuizGenerator';
-import { LessonQuizSettings, QuizAttempt, LessonProgressWithQuiz } from '../../types/lessonQuiz';
+import LessonQuizGenerator from '@/components/LessonQuizGenerator';
+import { LessonQuizSettings, QuizAttempt, LessonProgressWithQuiz } from '@/types/lessonQuiz';
 
 export default function LessonView() {
   const { courseId, lessonId } = useParams();

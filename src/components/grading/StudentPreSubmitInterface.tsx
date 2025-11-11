@@ -9,7 +9,7 @@ import {
   EnhancedAssignment, 
   AIPreSubmitFeedback,
   StudentPreSubmitInterfaceProps
-} from '../../types/aiGrading'
+} from '@/types/aiGrading'
 import { 
   LoadingSpinner, 
   FadeIn, 

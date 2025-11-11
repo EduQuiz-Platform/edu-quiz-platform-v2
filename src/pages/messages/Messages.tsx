@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { useAuth } from '../../contexts/AuthContext';
-import { useMessages } from '../../hooks/useMessages';
-import { Message } from '../../types/lessonQuiz';
+import { useAuth } from '@/contexts/AuthContext';
+import { useMessages } from '@/hooks/useMessages';
+import { Message } from '@/types/lessonQuiz';
 import { 
   Inbox, 
   Send, 

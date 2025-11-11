@@ -1,12 +1,12 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { supabase } from '@/lib/supabase';
-import DashboardLayout from '../../components/DashboardLayout';
-import UserManagement from '../../components/admin/UserManagement';
-import QuestionManagement from '../../components/admin/QuestionManagement';
-import AnalyticsDashboard from '../../components/admin/AnalyticsDashboard';
-import { AdminMetrics, SystemHealthMonitor } from '../../components/admin/AdminDashboardComponents';
-import { Tabs, PageHeader, LoadingState, ErrorState } from '../../components/ui/LoadingStates';
+import DashboardLayout from '@/components/DashboardLayout';
+import UserManagement from '@/components/admin/UserManagement';
+import QuestionManagement from '@/components/admin/QuestionManagement';
+import AnalyticsDashboard from '@/components/admin/AnalyticsDashboard';
+import { AdminMetrics, SystemHealthMonitor } from '@/components/admin/AdminDashboardComponents';
+import { Tabs, PageHeader, LoadingState, ErrorState } from '@/components/ui/LoadingStates';
 import { 
   Users, BookOpen, TrendingUp, Shield, Trash2,
   Activity, AlertCircle, CheckCircle, Database,

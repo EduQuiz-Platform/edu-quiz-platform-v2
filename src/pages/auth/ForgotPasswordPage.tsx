@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { useAuth } from '../../contexts/AuthContext';
+import { useAuth } from '@/contexts/AuthContext';
 import { Mail, Lock, AlertCircle, Clock, ArrowLeft, CheckCircle } from 'lucide-react';
-import ForgotPasswordForm from '../../components/ForgotPasswordForm';
+import ForgotPasswordForm from '@/components/ForgotPasswordForm';
 
 export default function ForgotPasswordPage() {
   const [showForgotPasswordForm, setShowForgotPasswordForm] = useState(true);

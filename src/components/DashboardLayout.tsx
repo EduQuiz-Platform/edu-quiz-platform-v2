@@ -3,9 +3,9 @@ import { Menu, X, Bell, Settings, LogOut, User } from 'lucide-react';
 import StudentDrawer from './drawer/StudentDrawer';
 import TeacherDrawer from './drawer/TeacherDrawer';
 import AdminDrawer from './drawer/AdminDrawer';
-import { useAuth } from '../contexts/AuthContext';
+import { useAuth } from '@/contexts/AuthContext';
 import { LoadingSpinner } from './ui/LoadingStates';
-import { NotificationService } from '../services/notificationService';
+import { NotificationService } from '@/services/notificationService';
 import { Notification } from '@/lib/supabase';
 
 interface DashboardLayoutProps {

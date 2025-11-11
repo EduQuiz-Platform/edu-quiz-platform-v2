@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useAuth } from '../../contexts/AuthContext';
-import { useMessages } from '../../hooks/useMessages';
-import { CreateMessageRequest } from '../../types/lessonQuiz';
+import { useAuth } from '@/contexts/AuthContext';
+import { useMessages } from '@/hooks/useMessages';
+import { CreateMessageRequest } from '@/types/lessonQuiz';
 import { 
   Send, 
   ArrowLeft, 

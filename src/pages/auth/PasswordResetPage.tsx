@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Lock, Eye, EyeOff, AlertCircle, CheckCircle } from 'lucide-react';
-import { useAuth } from '../../contexts/AuthContext';
+import { useAuth } from '@/contexts/AuthContext';
 
 export default function PasswordResetPage() {
   const [newPassword, setNewPassword] = useState('');

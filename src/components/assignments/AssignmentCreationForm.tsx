@@ -10,7 +10,7 @@ import {
   AssignmentCreationData, 
   AIRubricConfig,
   LessonSelectionProps 
-} from '../../types/aiGrading'
+} from '@/types/aiGrading'
 import { LoadingSpinner } from '../animations/FramerAnimations'
 
 interface AssignmentCreationFormProps {

@@ -3,9 +3,9 @@
 
 import React, { useState } from 'react'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
-import { AssignmentCreationForm } from '../components/assignments/AssignmentCreationForm'
-import { TeacherGradingInterface } from '../components/grading/TeacherGradingInterface'
-import { StudentPreSubmitInterface } from '../components/grading/StudentPreSubmitInterface'
+import { AssignmentCreationForm } from '@/components/assignments/AssignmentCreationForm'
+import { TeacherGradingInterface } from '@/components/grading/TeacherGradingInterface'
+import { StudentPreSubmitInterface } from '@/components/grading/StudentPreSubmitInterface'
 import { 
   EnhancedAssignment, 
   EnhancedSubmission, 
@@ -13,7 +13,7 @@ import {
   useAssignments,
   useSubmissions,
   useAIGradingResult
-} from '../hooks/useAIGrading'
+} from '@/hooks/useAIGrading'
 
 const queryClient = new QueryClient()
 

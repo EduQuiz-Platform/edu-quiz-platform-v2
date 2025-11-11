@@ -11,7 +11,7 @@ import {
   AssignmentCreationData,
   AIGradingDashboard,
   AssignmentStatistics
-} from '../types/aiGrading'
+} from '@/types/aiGrading'
 
 // Re-export types for convenience
 export type {

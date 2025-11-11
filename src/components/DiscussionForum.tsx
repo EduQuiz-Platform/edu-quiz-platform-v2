@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
-import { useAuth } from '../contexts/AuthContext';
-import { useDiscussionComments, CreateCommentData } from '../hooks/useDiscussionComments';
+import { useAuth } from '@/contexts/AuthContext';
+import { useDiscussionComments, CreateCommentData } from '@/hooks/useDiscussionComments';
 import { Comment } from './Comment';
 import { CommentForm } from './CommentForm';
 import { ArrowLeft, MessageSquare, Users, AlertCircle } from 'lucide-react';

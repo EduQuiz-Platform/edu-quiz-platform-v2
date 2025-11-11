@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { supabase } from '@/lib/supabase';
-import { useAuth } from '../../contexts/AuthContext';
+import { useAuth } from '@/contexts/AuthContext';
 import { BookOpen, Clock, Users, CheckCircle, PlayCircle, ArrowLeft, UserPlus, UserMinus, MessageSquare } from 'lucide-react';
 
 export default function CourseDetails() {

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { useAuth } from '../contexts/AuthContext';
-import { DiscussionComment } from '../hooks/useDiscussionComments';
+import { useAuth } from '@/contexts/AuthContext';
+import { DiscussionComment } from '@/hooks/useDiscussionComments';
 import { MessageSquare, Reply, Edit3, Trash2, MoreVertical } from 'lucide-react';
 
 interface CommentProps {

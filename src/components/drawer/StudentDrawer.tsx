@@ -1,5 +1,5 @@
 import { useLocation, useNavigate } from 'react-router-dom';
-import { useAuth } from '../../contexts/AuthContext';
+import { useAuth } from '@/contexts/AuthContext';
 import { useState, useEffect, useCallback } from 'react';
 import { X, LogOut, Home, ChevronRight, User, GraduationCap } from 'lucide-react';
 import {

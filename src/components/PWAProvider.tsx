@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react';
-import { usePWA } from '../hooks/usePWA';
+import { usePWA } from '@/hooks/usePWA';
 import { PWAInstallPrompt, NetworkStatus, UpdateAvailable, PushNotificationPrompt } from './PWAComponents';
 
 interface PWAProviderProps {

@@ -2,9 +2,9 @@ import { useState, useEffect } from 'react';
 import { Link, useNavigate, useSearchParams, useLocation } from 'react-router-dom';
 import { supabase, Assignment, Notification, Grade } from '@/lib/supabase';
 import { logApiError } from '@/lib/logger';
-import DashboardLayout from '../../components/DashboardLayout';
-import { StudentOverview, CourseCard, ProgressBar } from '../../components/student/StudentDashboardComponents';
-import { Tabs, PageHeader, LoadingState, ErrorState, EmptyState } from '../../components/ui/LoadingStates';
+import DashboardLayout from '@/components/DashboardLayout';
+import { StudentOverview, CourseCard, ProgressBar } from '@/components/student/StudentDashboardComponents';
+import { Tabs, PageHeader, LoadingState, ErrorState, EmptyState } from '@/components/ui/LoadingStates';
 import { 
   BookOpen, TrendingUp, Clock, CheckCircle, 
   Bell, Calendar, Award, FileText, Bookmark,

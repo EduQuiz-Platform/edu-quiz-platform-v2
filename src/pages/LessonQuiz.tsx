@@ -2,8 +2,8 @@ import { useState, useEffect, useCallback } from 'react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import { Clock, CheckCircle, XCircle, Trophy, Lightbulb, AlertTriangle } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
-import { useAuth } from '../contexts/AuthContext';
-import type { LessonQuiz, Question, QuizAttempt, QuestionResponse } from '../types/lessonQuiz';
+import { useAuth } from '@/contexts/AuthContext';
+import type { LessonQuiz, Question, QuizAttempt, QuestionResponse } from '@/types/lessonQuiz';
 
 export default function LessonQuiz() {
   const { quizId } = useParams<{ quizId: string }>();

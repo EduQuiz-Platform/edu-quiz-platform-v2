@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Plus, Settings, Shuffle, Clock, Target, Save, Wand2, Edit3, Trash2 } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
-import { useAuth } from '../contexts/AuthContext';
-import { LessonQuizSettings, GeneratedQuestion, Question } from '../types/lessonQuiz';
+import { useAuth } from '@/contexts/AuthContext';
+import { LessonQuizSettings, GeneratedQuestion, Question } from '@/types/lessonQuiz';
 
 interface LessonQuizGeneratorProps {
   lessonId: string;

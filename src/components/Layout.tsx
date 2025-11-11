@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Outlet, Link, useLocation } from 'react-router-dom';
-import { useAuth } from '../contexts/AuthContext';
+import { useAuth } from '@/contexts/AuthContext';
 import { GraduationCap, BookOpen, LogIn, LogOut, User, Layout as LayoutIcon, Menu, X } from 'lucide-react';
 
 export default function Layout() {

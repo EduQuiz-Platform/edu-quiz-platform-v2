@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import { supabase } from '@/lib/supabase';
-import { useAuth } from '../contexts/AuthContext';
+import { useAuth } from '@/contexts/AuthContext';
 import { 
   TrendingUp, Award, Clock, Target, ChevronLeft, 
   BarChart3, PieChart, Calendar, Trophy, Flame,

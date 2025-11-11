@@ -18,7 +18,7 @@ import {
   MoreVertical,
   Plus
 } from 'lucide-react';
-import { Card, StatCard, Tabs, LoadingState, ErrorState, EmptyState } from '../../components/ui/LoadingStates';
+import { Card, StatCard, Tabs, LoadingState, ErrorState, EmptyState } from '@/components/ui/LoadingStates';
 import { LineChart, Line, AreaChart, Area, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
 
 interface AdminAnalyticsData {

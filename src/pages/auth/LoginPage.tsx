@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { useAuth } from '../../contexts/AuthContext';
+import { useAuth } from '@/contexts/AuthContext';
 import { LogIn, Mail, Lock, AlertCircle, RefreshCw, Eye, EyeOff, Copy, CheckCircle } from 'lucide-react';
-import ForgotPasswordForm from '../../components/ForgotPasswordForm';
+import ForgotPasswordForm from '@/components/ForgotPasswordForm';
 
 interface PasswordResetInfo {
   hasApprovedReset: boolean;

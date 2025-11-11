@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { supabase, Assignment } from '@/lib/supabase';
-import DashboardLayout from '../../components/DashboardLayout';
-import QuestionManager from '../../components/QuestionManager';
-import { TeacherOverview, CourseCard, AssignmentCard } from '../../components/teacher/TeacherDashboardComponents';
-import { Tabs, PageHeader, LoadingState, ErrorState, EmptyState } from '../../components/ui/LoadingStates';
+import DashboardLayout from '@/components/DashboardLayout';
+import QuestionManager from '@/components/QuestionManager';
+import { TeacherOverview, CourseCard, AssignmentCard } from '@/components/teacher/TeacherDashboardComponents';
+import { Tabs, PageHeader, LoadingState, ErrorState, EmptyState } from '@/components/ui/LoadingStates';
 import { 
   BookOpen, Users, PlusCircle, Edit, Trash2, Eye, EyeOff,
   FileText, Award, Bell, ArrowRight, Settings, TrendingUp, FolderOpen, Megaphone,

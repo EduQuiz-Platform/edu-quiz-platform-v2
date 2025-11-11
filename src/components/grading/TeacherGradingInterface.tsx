@@ -10,7 +10,7 @@ import {
   AIGradingResult,
   TeacherGradingInterfaceProps,
   ScoreAdjustments 
-} from '../../types/aiGrading'
+} from '@/types/aiGrading'
 import { 
   LoadingSpinner, 
   FadeIn, 
