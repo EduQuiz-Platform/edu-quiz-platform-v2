@@ -3,7 +3,7 @@
 
 import React, { useState } from 'react'
 import { useMutation, useQueryClient } from '@tanstack/react-query'
-import { supabase } from '../../lib/supabase-enhanced'
+import { supabase } from '@/lib/supabase-enhanced'
 import { 
   EnhancedAssignment, 
   EnhancedSubmission, 

@@ -4,7 +4,7 @@
 import React, { useState, useEffect } from 'react'
 import { useForm } from 'react-hook-form'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
-import { supabase } from '../../lib/supabase-enhanced'
+import { supabase } from '@/lib/supabase-enhanced'
 import { 
   EnhancedAssignment, 
   AssignmentCreationData, 

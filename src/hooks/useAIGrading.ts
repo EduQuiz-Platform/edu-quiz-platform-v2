@@ -2,7 +2,7 @@
 // Provides data fetching and mutations for AI grading features
 
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query'
-import { supabase } from '../lib/supabase-enhanced'
+import { supabase } from '@/lib/supabase-enhanced'
 import {
   EnhancedAssignment,
   EnhancedSubmission,
