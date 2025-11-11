@@ -1,8 +1,8 @@
 import { useQuery, useMutation, useQueryClient, useInfiniteQuery } from '@tanstack/react-query';
-import { supabase, SupabaseService, TABLES } from '@/lib/supabase-enhanced';
+import { supabaseEnhanced as supabase, SupabaseService, TABLES } from '@/lib';
 import { queryKeys } from '@/providers/QueryProvider';
 import { toast } from 'sonner';
-import type { Profile, Course, Lesson, Message, Quiz } from '@/lib/supabase';
+import type { Profile, Course, Lesson, Message, Quiz } from '@/lib';
 
 // Auth hooks
 export function useUserProfile(userId: string | undefined) {
@@ -325,8 +325,8 @@ export function useUploadFile() {
       file: File;
       options?: { cacheControl?: string; upsert?: boolean };
     }) => {
-      const { supabase } = await import('@/lib/supabase-enhanced');
-      return supabase.storage.from(bucket).upload(path, file, options);
+      const { supabaseEnhanced } = await import('@/lib');
+      return supabaseEnhanced.storage.from(bucket).upload(path, file, options);
     },
     onError: (error) => {
       console.error('Upload failed:', error);
