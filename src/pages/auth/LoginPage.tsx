@@ -41,10 +41,8 @@ export default function LoginPage() {
       const resetInfo = await getPasswordResetInfo(email);
       setTempPasswordInfo(resetInfo);
       
-      if (resetInfo.hasApprovedReset && !resetInfo.tempPasswordViewed) {
+      if (resetInfo.hasApprovedReset && resetInfo.tempPassword) {
         setShowTempPasswordInfo(true);
-        // Mark as viewed so we don't show it repeatedly
-        await markTempPasswordAsViewed(email);
       }
     } catch (error) {
       console.error('Error checking password reset status:', error);

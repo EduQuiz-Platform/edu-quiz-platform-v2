@@ -307,7 +307,7 @@ const UserManagement: React.FC<UserManagementProps> = ({ onAction }) => {
       setSelectedUsers([]);
       setBulkOperation({ type: 'update_role', data: {} });
       loadUsers();
-      onAction?.('bulk_operation_completed', undefined, { operation, userIds });
+      onAction?.('bulk_operation_completed', undefined, { operation: bulkOperation.type, userIds: selectedUsers });
     } catch (error: any) {
       setError(error.message);
       console.error('Error performing bulk operation:', error);

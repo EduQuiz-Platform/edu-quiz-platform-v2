@@ -19,6 +19,7 @@ import {
 } from 'lucide-react';
 import { Card, StatCard, ProgressBar, LoadingState, ErrorState, Tabs } from '../ui/LoadingStates';
 import { LineChart, Line, AreaChart, Area, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
+// @ts-ignore - Recharts type issues
 
 const COLORS = ['#3B82F6', '#10B981', '#F59E0B', '#EF4444', '#8B5CF6', '#06B6D4'];
 
