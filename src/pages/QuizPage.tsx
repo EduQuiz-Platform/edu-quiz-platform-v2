@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Clock, CheckCircle, XCircle, Trophy, Lightbulb, Sparkles, ChevronLeft, ChevronRight, TrendingUp } from 'lucide-react';
-import { supabase } from '../lib/supabase';
+import { supabase } from '@/lib/supabase';
 import { useAuth } from '../contexts/AuthContext';
 
 interface QuizQuestion {
