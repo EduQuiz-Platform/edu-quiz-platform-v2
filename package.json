@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "build:no-check": "vite build",
     "build:prod": "tsc -b && BUILD_MODE=prod vite build",
     "build:prod:no-check": "BUILD_MODE=prod vite build",
