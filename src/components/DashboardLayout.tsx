@@ -6,7 +6,7 @@ import AdminDrawer from './drawer/AdminDrawer';
 import { useAuth } from '../contexts/AuthContext';
 import { LoadingSpinner } from './ui/LoadingStates';
 import { NotificationService } from '../services/notificationService';
-import { Notification } from '../lib/supabase';
+import { Notification } from '@/lib/supabase';
 
 interface DashboardLayoutProps {
   children: ReactNode;

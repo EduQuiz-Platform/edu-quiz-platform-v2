@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useAuth } from '../contexts/AuthContext';
-import { supabase } from '../lib/supabase';
+import { supabase } from '@/lib/supabase';
 import { Message, CreateMessageRequest, MessageFilters, MessageOperationResult } from '../types/lessonQuiz';
 
 export function useMessages(filters?: MessageFilters) {

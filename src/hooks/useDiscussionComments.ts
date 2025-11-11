@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import { supabase, UserRole } from '../lib/supabase';
+import { supabase, UserRole } from '@/lib/supabase';
 import { useAuth } from '../contexts/AuthContext';
 
 export interface DiscussionComment {

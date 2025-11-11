@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { supabase } from '../lib/supabase';
+import { supabase } from '@/lib/supabase';
 import { Sparkles, Plus, Edit, Trash2, ChevronUp, ChevronDown, Eye, X, BookOpen } from 'lucide-react';
 
 interface LessonQuestion {

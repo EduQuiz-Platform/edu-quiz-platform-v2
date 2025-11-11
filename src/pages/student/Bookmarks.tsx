@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { supabase } from '../../lib/supabase';
+import { supabase } from '@/lib/supabase';
 import DashboardLayout from '../../components/DashboardLayout';
 import { Bookmark, BookmarkPlus, Trash2, PlayCircle, BookOpen, FileText } from 'lucide-react';
 

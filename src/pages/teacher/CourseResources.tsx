@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { supabase } from '../../lib/supabase';
+import { supabase } from '@/lib/supabase';
 import { Upload, FileText, Download, Trash2, Eye, PlusCircle } from 'lucide-react';
 
 interface CourseResource {

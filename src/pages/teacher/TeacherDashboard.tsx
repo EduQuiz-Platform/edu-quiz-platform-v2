@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { supabase, Assignment } from '../../lib/supabase';
+import { supabase, Assignment } from '@/lib/supabase';
 import DashboardLayout from '../../components/DashboardLayout';
 import QuestionManager from '../../components/QuestionManager';
 import { TeacherOverview, CourseCard, AssignmentCard } from '../../components/teacher/TeacherDashboardComponents';

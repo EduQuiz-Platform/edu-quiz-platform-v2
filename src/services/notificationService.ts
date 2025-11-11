@@ -1,5 +1,5 @@
-import { supabase } from '../lib/supabase';
-import { Notification } from '../lib/supabase';
+import { supabase } from '@/lib/supabase';
+import { Notification } from '@/lib/supabase';
 
 export class NotificationService {
   /**

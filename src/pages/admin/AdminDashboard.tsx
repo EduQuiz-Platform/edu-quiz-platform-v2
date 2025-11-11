@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { supabase } from '../../lib/supabase';
+import { supabase } from '@/lib/supabase';
 import DashboardLayout from '../../components/DashboardLayout';
 import UserManagement from '../../components/admin/UserManagement';
 import QuestionManagement from '../../components/admin/QuestionManagement';

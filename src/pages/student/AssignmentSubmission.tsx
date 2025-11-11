@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
-import { supabase, Assignment } from '../../lib/supabase';
+import { supabase, Assignment } from '@/lib/supabase';
 import { FileText, Clock, AlertCircle, CheckCircle, ArrowLeft, MessageSquare } from 'lucide-react';
 
 export default function AssignmentSubmission() {

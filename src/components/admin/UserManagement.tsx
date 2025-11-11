@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { supabase } from '../../lib/supabase';
+import { supabase } from '@/lib/supabase';
 import { 
   Users, UserPlus, Search, Filter, Edit3, Trash2, 
   Shield, UserCheck, UserX, AlertTriangle, CheckCircle, 

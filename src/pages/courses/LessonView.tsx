@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
-import { supabase } from '../../lib/supabase';
+import { supabase } from '@/lib/supabase';
 import { useAuth } from '../../contexts/AuthContext';
 import { ArrowLeft, ArrowRight, CheckCircle, BookOpen, Award, RotateCcw, Clock, MessageSquare } from 'lucide-react';
 import LessonQuizGenerator from '../../components/LessonQuizGenerator';

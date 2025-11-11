@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { supabase } from '../../lib/supabase';
+import { supabase } from '@/lib/supabase';
 import { Bell, AlertCircle, AlertTriangle, Info, CheckCircle } from 'lucide-react';
 
 interface Announcement {

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { supabase } from '../../lib/supabase';
+import { supabase } from '@/lib/supabase';
 import { BookOpen, Clock, Users, Search } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
 

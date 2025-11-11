@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { supabase } from '../../lib/supabase';
+import { supabase } from '@/lib/supabase';
 import DashboardLayout from '../../components/DashboardLayout';
 import { Award, Star, Trophy, Medal, Crown, Zap } from 'lucide-react';
 
